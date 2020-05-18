@@ -1,0 +1,59 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2F4F4F;
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 100%;
+}
+
+.leftInnerContainer {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: white;
+}
+
+.rightInnerContainer {
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+    position: relative;
+}
+
+.userOnline {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    color: #69f0ae;
+    text-decoration: none;
+}
+
+.usersList {
+    padding: 0;
+    list-style-type: none;
+    top: 40px;
+    position: absolute;
+    width: 100%;
+    max-width: 110px;
+    opacity: 0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.personIcon {
+    width: 20px;
+}
+
+.onlineIcon {
+    margin-right: 5%;
+}

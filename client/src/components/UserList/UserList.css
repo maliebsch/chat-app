@@ -1,0 +1,18 @@
+.userList {
+    border-bottom: 2px solid #69f0ae;
+    padding: 5px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+.user {
+    background-color: #2F4F4F;
+    border-radius: 4px;
+    padding: 5px;
+    color: #fff;
+}
+
+.onlineIcon {
+    margin-left: 5px;
+}
